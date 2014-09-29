@@ -19,15 +19,15 @@ path and name with extension .asc
 
 ### Options are:
 
-#### `-fFormat` Specify an output RDF format
+* `-fFormat` Specify an output RDF format
 
-#### `-v` Request display of sss2rdf version
+* `-v` Request display of sss2rdf version
 
-#### -uURI
+* `-uURI`
 
 Specifies a base URI for the survey dataset
 
-#### -pN
+* `-pN`
 
 Specifies the maximum level of conversion
 
@@ -36,34 +36,34 @@ Specifies the maximum level of conversion
 3. All metadata plus case data as ASCII records only
 4. All metadata plus case data as ASCII records plus case data as triples
 
-* -dFilename
+* `-dFilename`
 
 Specifies the output RDF file name
 
-* -cURI
+* `-cURI`
 
 Specifies a context URI
 
-* -sfile|bigdata
+* `-sfile|bigdata`
 
 Specifies the destination for the RDF
 
-* -tTitle
+* `-tTitle`
 
 Specifies a title for the dataset (defaults to Triple-S survey title)
 
-* -eEndpoint
+* `-eEndpoint`
 
 Specifies the endpoint for the bigdata triple store
 
-* -x
+* `-x`
 
 If specified deletes any triples already in the specified context
 
-* -l
+* `-l`
 
 Specifies maximum number of triples to generate
 
-* -o
+* `-o`
 
 Specifies number of triples to skip before generating
