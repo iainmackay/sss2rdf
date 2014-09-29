@@ -19,19 +19,15 @@ path and name with extension .asc
 
 ### Options are:
 
-* -fFormat
+#### `-fFormat` Specify an output RDF format
 
-Specifies an output RDF format
+#### `-v` Request display of sss2rdf version
 
-* -v
-
-Requests display of sss2rdf version
-
-* -uURI
+#### -uURI
 
 Specifies a base URI for the survey dataset
 
-* -pN
+#### -pN
 
 Specifies the maximum level of conversion
 
